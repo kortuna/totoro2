@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_board"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="게시판"
+            android:onClick="onButton1Clicked"/>
+        <item
+            android:id="@+id/nav_before_search"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="전적 검색"
+            android:onClick="onButton2Clicked"
+            />
+        <item
+            android:id="@+id/nav_bookmark"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="즐겨찾기"
+            android:onClick="onButton3Clicked"/>
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="설정"
+            android:onClick="onButton4Clicked"/>
+    </group>
+
+
+
+</menu>
